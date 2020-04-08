@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    stages {
+
+        stage ('remove') {
+
+            steps {
+               sh '''
+               #! /bin/bash
+               cd /var/lib/jenkins/
+           mkdir chandu '''
+
+
+            }
+
+        }
+
+    }
+}
